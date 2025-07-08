@@ -329,9 +329,14 @@ return [
         ],
         ['header' => 'account_settings'],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Create Permission',
+            'url' => 'permissions/create',
             'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'List Permission',
+            'url' => 'permissions/list',
+            'icon' => 'fas fa-fw fa-users',
         ],
         [
             'text' => 'change_password',
